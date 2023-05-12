@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Instrument+Serif:ital@1&family=Pacifico&display=swap');
+
+:root {
+    --primary-color: #a7bdc2 ;
+    --secondary-color: #E7C24F ;
+    --accent1-color: #19595e ;
+    --accent2-color: white;
+
+    --heading-font: "Roboto",Serif;
+    --paragraph-font:"Dancing Script",Serif;
+
+    --nav-background-color: #78c5d7;
+    --nav-lonk-color: #134226;
+    --nav-hover-lonk-color: white;
+    --nav-hover-background-color: #134266;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px
+}
+
+h1, h2, {
+    font-family: var'Times New Roman', serif;
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+div {
+    hero img {
+        display: Block;
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        position: absolute;
+    }
+
+    article {
+        position: absolute;
+    }
