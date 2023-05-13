@@ -22,31 +22,55 @@ body {
     padding: 20px
 }
 
-h1, h2, {
+h1, h2 {
     font-family: var'Times New Roman', serif;
     color: var(--primary-color);
 }
+    
+
 
 header {
-    padding: 20px;
-    background-color: var(--accent1-color);
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
 }
 
-p {
-    padding: 25px;
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
 }
 
-div {
-    hero img {
-        display: Block;
-        width: 100%;
-        height: auto;
-    }
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
 
-    h1 {
-        position: absolute;
-    }
+nav {
+	text-align: right;
+}
 
-    article {
-        position: absolute;
-    }
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
