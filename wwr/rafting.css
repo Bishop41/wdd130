@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Roboto:ital,wght@0,100;1,100&family=Sometype+Mono&display=swap');
+
+:root {
+    --heading-font: 'Alumni Sans', serif;
+    --paragraph-font: Roboto, serif;
+
+    --nav-background-color: #b2b2b2;
+    --nav-link-color: #1b3b18;
+    --nav-hover-link-color: #b2b2b2;
+    --nav-hover-background-color: #39467e;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+ h1 {
+    position: absolute;
+ }
+
+ article {
+    position: absolute;
+ }
+
+img {
+    float: right;
+}
+
+footer {
+    margin-top: 5px;
+    border-top: 1px solid #797474;
+    text-align: center;
+}
