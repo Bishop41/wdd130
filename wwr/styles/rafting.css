@@ -28,6 +28,10 @@ img {
     float: right;
 }
 
+p{
+    clear: right;
+}
+
 footer {
     margin-top: 5px;
     border-top: 1px solid #797474;
