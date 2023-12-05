@@ -1,30 +1,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Roboto:ital,wght@0,100;1,100&family=Sometype+Mono&display=swap');
 
-:root {
-    --Primary-color:#1a447a;
-    --Secondary-color: rgba(124, 88, 59, 0.897);
-    --accent1-color: #647a88;
-    --accent-color: #6d8bb37c;
 
-    --paragraph-background-color: #396E94;
-    --heading-font: 'Alumni Sans', serif;
-   
-    --headline-color-on-white: #396E94;
-    --headline-color-on-color: white;
-    --paragraph-color-on-white: #396E94;
-    --paragraph-color-on-color: white;
-    --paragraph-font: Roboto, serif;
-    --nav-background-color: #b2b2b2;
-    --nav-link-color: #1b3b18;
-    --nav-hover-link-color: #b2b2b2;
-    --nav-hover-background-color: #39467e;
-
+main {
+    width: 600px;
+    margin: 0 auto;
 }
 
-.hero img {
+img {
     width: 100%;
-    height: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+section {
+    grid-column: 1/4;
+}
+
+.icons {
+    display: flex;
 }
 
 article {
