@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+:root {
+    --primary-color: #209708;
+    --secondary-color: #e2c9c9;
+    --accent1-color: #A3C2E0;
+    --accent2-color: black;
+
+    --heading-font: Lobster, serif;
+    --paragraph-font: Roboto, serif;
+
+    --nav-background-color: #F5F5F5;
+    --nav-link-color: #40c5c9;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #40c5c9;
+}
+
+h1 {
+    font-family: Lobster, serif;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 5em;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 3rem;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 100000px;
+    padding: 20px;
+}
+
+p {
+    padding: 1px;
+    font-size: 2rem;
+}
+
+.hero img {
+    width: 100%;
+	height: 600px;
+}
+
+section {
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+    color: rgb(36, 2, 36);
+}
+
+.navigation {
+        display: flex;
+        list-style: none;
+        color: rgb(36, 2, 36);
+}
+
+.navigation a {
+	display: block;
+	color: rgb(36, 2, 36);
+	padding: 46px;
+    padding-right: 75px;
+	text-decoration: none;
+    background-color: rgb(241, 240, 240);
+    font-size: 2rem;
+}
+
+.navigation a:hover {
+    color: rgb(40, 177, 201);
+}
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 160px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+figure img{
+    border: thin #c0c0c0 solid;
+    padding: 5px;
+    max-width: 500px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    font: italic smaller sans-serif;
+    border: thin solid #c0c0c0;
+    padding: 5px;
+    text-align: center;
+    max-width: 500px;
+    float: left;
+
+}
+
+footer {
+    float: right;
+}
+
+table, th, td {
+    border: 1px solid var(--accent1-color);
+    border-collapse: collapse;
+    align-items: center;
+    color: var(--primary-color);
+  }
+
+th, td {
+    background-color: rgb(241, 240, 240);
+  }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    padding: 5px;
+    background-color: antiquewhite;
+    border: 2px solid steelblue;
+    margin-left: 80%;
+    width: 300px;
+    height: auto;
+    text-align: center;
+  }
+
+  button {
+    margin: 1rem;
+    background-color: var(--accent1-color);
+    color: antiquewhite;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    object-position: center;
+    font-size: large;
+    margin-left: 30%;
+}
+
+button a:hover {
+    color: rgb(128, 53, 68);
+}
