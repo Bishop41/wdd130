@@ -1,114 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Roboto:ital,wght@0,100;1,100&family=Sometype+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
 
 :root {
-    --Primary-color:#1a447a;
-    --Secondary-color: rgba(124, 88, 59, 0.897);
-    --accent1-color: #647a88;
-    --accent-color: #6d8bb37c;
+    --primary-color: #8F3700;
+    --secondary-color: #F5F5F5;
+    --accent1-color: #A3C2E0;
+    --accent2-color: #ED5D31;
 
-    --paragraph-background-color: #396E94;
-    --heading-font: 'Alumni Sans', serif;
-   
-    --headline-color-on-white: #396E94;
-    --headline-color-on-color: white;
-    --paragraph-color-on-white: #396E94;
-    --paragraph-color-on-color: white;
+    --heading-font: Lobster, serif;
     --paragraph-font: Roboto, serif;
-    --nav-background-color: #b2b2b2;
-    --nav-link-color: #1b3b18;
-    --nav-hover-link-color: #b2b2b2;
-    --nav-hover-background-color: #39467e;
 
+    --nav-background-color: #F5F5F5;
+    --nav-link-color: #40c5c9;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #40c5c9;
 }
 
 body {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
-    text-align: center;
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-}
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);  
-    color: var(--heading-color-on-white);
-}
-
-h2 {
-    text-align: center;
-}
-
-hr {
-    height: 3px;
-    margin: 35px 0;
-    background: var(--accent1-color);
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 header {
-    padding: 1em;
-    text-align: center;
-    color: var(--heading-color-on-color);
-    background-color: var(--paragraph-background-color);
-}
-header > h1, header >h2 {
-    color: var(--headline-color-on-color);
+    padding: 20px;
+    background-color: var(--accent1-color);
 }
 
 p {
-    font-family: var(--paragraph-font);
-    color: var(--paragraph-color-on-white);
-    padding: 1rem;
-}
-.colors {
-    width: 100%;
-    min-width:350px;
-    margin:30px auto;
-    text-align: center;
-}   
-.colors th {
-    background-color: #999;
-}
-.colors td {
-    width:25%;
-    height: 3rem;
-}
-    
-.primary {
-    background-color: var(--primary-color);
-}    
-.secondary {
-    background-color:(--Secondary-color);
-}
-.accent1 {
-    background-color: var(--accent1-color);
-}
-.accent2 {
-    background-color: var(--accent2-color);
-}
-
-p.colored {
-    background-color: var(--paragraph-background-color);
-    color: var(--paragraph-color-on-color);
-}
-    nav {
-    background-color: var(--nav-background-color);
-    line-height: 3em;
-    display: center;
-    font-size: 1.2em;
+    padding: 25px;
 }
 
 nav {
-    list-style-type: none;
-    display:flex;
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
 }
 
 nav a {
-    padding: 10px;
-    min-width: 120px;
+    display: block;
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
@@ -116,56 +51,8 @@ nav a {
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
+
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-}
-
-.sitemap {
-    display: grid;
-    justify-content: center;
-
-    grid-template-columns: repeat(6,15%);
-    grid-template-rows: 3rem 1.5em 1.5em 3em;
-    grid-area: ". . home home . ."
-        "... top . . "
-        ". left left right right ."
-        "page2 page2 . . page3 page3";
-}
-.sitemap > div {
-
-    text-align: center;
-
-}
-.sm-home {
-    grid-area: home;
-    background-color: #ccc;
-    line-height: 3em;
-}
-.sm-home2 {
-    grid-area: page2;
-    background-color: #ccc;
-    line-height: 3em;
-}
-.sm-home3 {
-    grid-area: page3;
-    background-color: #ccc;
-    line-height: 3em;
-}
-
-.top {
-    grid-area: top;
-    border-left:1px solid;
-}
-
-.left {
-    grid-area: left;
-    border-top: 1px solid;
-    border-left:1px solid;
-}
-
-.right {
-    grid-area: left;
-    border-top: 1px solid;
-    border-left:1px solid;
 }
