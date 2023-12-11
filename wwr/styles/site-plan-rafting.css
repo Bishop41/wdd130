@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
 
 :root {
-    --primary-color: #8F3700;
+    --primary-color: #be8460;
     --secondary-color: #F5F5F5;
     --accent1-color: #A3C2E0;
-    --accent2-color: #ED5D31;
+    --accent2-color: #edea31;
 
     --heading-font: Lobster, serif;
     --paragraph-font: Roboto, serif;
 
     --nav-background-color: #F5F5F5;
-    --nav-link-color: #40c5c9;
+    --nav-link-color: #4059c9;
     --nav-hover-link-color: #ffffff;
-    --nav-hover-background-color: #40c5c9;
+    --nav-hover-background-color: #198488;
 }
 
 body {
