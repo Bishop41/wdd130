@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+:root {
+    --primary-color: #974108;
+    --secondary-color: #F5F5F5;
+    --accent1-color: #A3C2E0;
+    --accent2-color: black;
+
+    --heading-font: Lobster, serif;
+    --paragraph-font: Roboto, serif;
+
+    --nav-background-color: #F5F5F5;
+    --nav-link-color: #40c5c9;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #40c5c9;
+}
+
+h1 {
+    font-family: Lobster, serif;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 5em;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 3em;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 100000px;
+    padding: 20px;
+}
+
+p {
+    padding: 1px;
+    font-size: 2rem;
+}
+
+.hero img {
+    width: 100%;
+	height: auto;
+}
+
+section {
+    text-align: center;
+    width: 500px;
+    padding-left: 500px;
+}
+
+nav {
+    text-align: right;
+    color: rgb(36, 2, 36);
+}
+
+.navigation {
+        display: flex;
+        list-style: none;
+        color: rgb(36, 2, 36);
+}
+
+.navigation a {
+	display: block;
+	color: rgb(36, 2, 36);
+	padding: 46px;
+    padding-right: 75px;
+	text-decoration: none;
+    background-color: rgb(241, 240, 240);
+    font-size: 2rem;
+}
+
+.navigation a:hover {
+    color: crimson;
+}
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 160px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: grid;
+    padding: 5px;
+    max-width: 650px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    font: italic smaller sans-serif;
+    border: thin solid #c0c0c0;
+    padding: 5px;
+    text-align: center;
+    max-width: 400px;
+}
+
+footer {
+    float: right;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    left: 1px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: antiquewhite;
+    font-size: small;
+    padding: 5px;
+}
+
+aside.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    left: 10000px;
+    width: 250px;
+    height: auto;
+}
+
+aside {
+    text-align: center;
+    position: relative;
+    color: var(--primary-color);
+    background-color: antiquewhite;
+    font-size:2rem;
+    padding: 10px;
+    font-family: 'rock salt';
+}
+
+button {
+    font-size: 2rem;
+    color: var(--primary-color);
+    background-color: aliceblue;
+    align-items: center;
+}
+
+button a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+button:hover {
+    color: crimson;
+}
+
+button a:hover {
+    color: crimson;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
